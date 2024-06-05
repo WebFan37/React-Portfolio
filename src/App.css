@@ -43,20 +43,11 @@
 /*===========================*/
 
 .mainmenu h1{
-  padding-top:7rem;
+  padding-top:1rem;
 }
 
-.main-page{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
 .main-page h3{
   padding: 1.5rem;
 }
-.main-page p{
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
+
 
