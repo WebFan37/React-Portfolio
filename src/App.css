@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,7 +46,7 @@
 .read-the-docs {
   color: #888;
 }
-/*===========================*/
+/*========CODE POUR MENU PRINCIPAL========*/
 
 .mainmenu h1{
   padding-top:1rem;
@@ -48,6 +54,38 @@
 
 .main-page h3{
   padding: 1.5rem;
+}
+
+/*==========================*/
+/*=======CODE FOR HEADER =============*/
+.header1{
+  background-color: #114060c2;
+  color: white;
+  text-align: center;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 10rem;
+  z-index: 1000;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.infoHeader1 {
+  background-color: rgb(159, 197, 210);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+  .menu{
+    width:60%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
 }
 
 

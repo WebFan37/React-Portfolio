@@ -1,24 +1,29 @@
 .header1{
-    background-color: #000000;
-    color: var(--color-for-header);
+    background-color: #114060c2;
+    color: white;
     text-align: center;
     left: 0;
     top: 0;
     position: fixed;
     width: 100%;
-    height: 7rem;
+    height: 10rem;
     z-index: 1000;
-
-}
-.header2 {
-    width: 100%;
-    height: 5rem;
-    background-color: var(--color-for-header);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+  .infoHeader1 {
+    background-color: rgb(159, 197, 210);
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-    font-weight:bolder;
-    padding: 0 100px;
-    position: fixed;
-    z-index: 1000;
-}
+    flex-wrap: wrap;
+    justify-content:space-around;
+  
+    .menu{
+      width:60%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+  
+  }
